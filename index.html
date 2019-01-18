@@ -18,6 +18,7 @@
 
             </div>
             <div id="account">
+                <form>
                     <div class="well">
                             
                                 <p id ="list" ><strong>Form register</strong></p><br>
@@ -25,13 +26,13 @@
                                     <div class="col-sm-6">
                                         <p>Register Account</p>
                                         <label><input type="text"  id="amoxi" placeholder="Name">Name</label><br>
-                                        <label><input type="number" class="form-control" id="input" placeholder="Initial">Initial Deposit</label><br>
+                                        <label><input type="number" name="depo" class="form-control" id="input" placeholder="Initial">Initial Deposit</label><br>
                                     </div>
                                     <div class="col-sm-6">
                                         <p>Deposit or Withdrow</p>
-                                       <label><input type="number" class="form-control" id="input" placeholder="Amount">Deposit Amount</label><br>
+                                       <label><input type="number" name="depo1" class="form-control" id="input" placeholder="Amount">Deposit Amount</label><br>
                                        <label><input type="number" class="form-control" id="input" placeholder="Amount">Withdrow amount</label><br>  
-                                       <input type="button" name="results" value="Current Blance" id="button" class="btn btn-success">
+                                       <input type="button" name="results" value="Current Blance" id="button" class="btn btn-success" onclick="account">
                                     </div> 
                                 
                                 
@@ -42,6 +43,7 @@
                     
                     
                 </div>
+            </form>
                         
            
         
