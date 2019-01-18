@@ -25,6 +25,6 @@ var account = function (name, balance){
   var OreoAccount = new account ("Oreo", 900000000);
   document.getElementById("balance").style.visibility = "visible";
   document.getElementById("correctNumber").innerHTML = "Check Blance: " + balance + "";
-  
+   
  
   
