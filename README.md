@@ -18,7 +18,7 @@ This is bank account project can deposit and withdraw money.
 * README
 * JavaScript
 # Link
-If you want more info: https://uwizeyeh.github.io/pig-dice/
+If you want more info: https://uwizeyeh.github.io/bank-account/
 
 # License
 copyright(c)2019
